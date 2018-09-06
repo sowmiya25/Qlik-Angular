@@ -1,0 +1,135 @@
+
+/*Super store css*/
+#title{
+    text-transform: uppercase;
+}
+#sidebar{
+    position: fixed; top:0;
+    font-size: 17px;
+    padding: 13px;
+}
+#sidebar .navbar-default {
+    width: 200px;
+    margin: 0;
+    height: 100%;
+    float: left;
+}
+
+#sidebar .dropdown-menu {
+    position: relative !important;
+    width: calc(100% + 2px);
+    box-shadow: none;
+    border-radius: 0;
+    margin: -1px 0 0 -1px;
+}
+
+#sidebar .navbar-nav,
+#sidebar .navbar-nav > li,
+#sidebar .navbar-left,
+#sidebar .navbar-right,
+#sidebar .navbar-header {
+    float: none !important;
+}
+
+#sidebar .navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+#sidebar .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+#sidebar .navbar{
+    margin-bottom:0;
+} 
+#sidebar .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+#dashboard{
+   background: #000;
+}
+.clear{
+    clear:both;
+}
+.horizonmenu{
+    position: fixed !important
+}
+#main{
+    background: #f5f5f5;
+    padding: 70px 50px 50px 50px;
+}
+.content{
+    margin-left: 250px
+}
+.panel{
+    border-width: 2px;
+}
+#category_dropdown.nav>li>a:hover, 
+#category_dropdown.nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.panel-body{
+    height: 300px
+}
+.padding0{
+    padding: 0px !important;
+}
+
+#totalSales{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 74px;
+    /* vertical-align: middle; */
+    padding-top: 60px;
+}
+.page-header {
+    border-bottom: 1px solid #aaa;
+}
+.panel-heading{
+    padding: 9px 20px 0 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.dropdown-toggle{
+    background-color: #333;
+    color: #fff;
+    outline: none;
+}
+.nav>li>a {
+    color: #fff;
+}
+
+.padding20{
+  padding: 20px 0;
+}
+.nav-tabs>li {
+    background: #aaa;
+}
+.tab-content{
+      border: 1px solid #aaa;
+    padding: 20px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #333;
+    border: 1px solid black;
+  }
+  .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: coral;
+}
+.page-header{
+  font-family: -webkit-body;
+  padding-bottom:10px !important; 
+}
+
+.object-holder{
+    padding: 20px;
+    border: 5px solid #333;
+    border-radius: 5px;
+}
